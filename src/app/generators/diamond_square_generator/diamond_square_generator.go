@@ -1,0 +1,1 @@
+package diamond_square_generator
