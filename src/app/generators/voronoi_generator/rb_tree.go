@@ -49,10 +49,10 @@ func (n *rbnode) maxNode() *rbnode {
 type RBTree struct {
 	root      *rbnode
 	length    int
-	orderFunc OrderFunc
+	orderFunc Less
 }
 
-func NewRBTree(orderFunc OrderFunc) *RBTree {
+func NewRBTree(orderFunc Less) *RBTree {
 	return &RBTree{orderFunc: orderFunc}
 }
 

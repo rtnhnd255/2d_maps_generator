@@ -6,7 +6,7 @@ package voronoi_generator
 // Fortune algorithm - O(nlogn)
 // In context of generating ~ 10000 maps, difference is brutal
 
-type VoronoiGenerator struct {
-	Map  [][]float64
-	salt float64
+type Voronoi struct {
+	cells []*Cell
+	edges []*Edge
 }
