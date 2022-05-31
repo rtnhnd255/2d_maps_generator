@@ -1,4 +1,4 @@
-package voronoi_generator_test
+package generator
 
 import "math/rand"
 

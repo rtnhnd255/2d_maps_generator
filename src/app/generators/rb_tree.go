@@ -1,4 +1,4 @@
-package voronoi_generator
+package generator
 
 type RBNodeValue interface {
 	setToNode(node *rbnode)

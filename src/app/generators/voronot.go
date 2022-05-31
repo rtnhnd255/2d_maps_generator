@@ -1,4 +1,4 @@
-package voronoi_generator
+package generator
 
 // Computing of voronoi diagramms is implemented via Fortune algorithm.
 // TL;DR

@@ -1,1 +1,0 @@
-package diamond_square_generator_test
